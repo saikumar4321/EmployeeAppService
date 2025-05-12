@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using EmployeeApp.Model.Utils;
 using EmployeeApp.Model.Responce;
 using Azure;
+using Microsoft.Identity.Client;
 
 
 namespace EmployeeAppService.Controllers
@@ -291,6 +292,18 @@ namespace EmployeeAppService.Controllers
                 resdata.Message = response.GetResponceMessage(resdata.StatusCode);
             }
             return Ok(resdata); 
+
+
+            
         }
+
+        [HttpPost("AddSeasonData")]
+        public IActionResult AddSeasonData(Season_Master season_Master)
+        {
+            _employeeController.AddSeasonData(season_Master);
+            return Ok(season_Master);
+            return Ok(season_Master);
+        }
+
     }
 }
