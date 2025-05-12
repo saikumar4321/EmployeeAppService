@@ -1,0 +1,675 @@
+2025-05-11 22:22:57.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:22:57.567 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 123.6474ms
+2025-05-11 22:27:21.713 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:27:21.783 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:27:21.788 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:27:21.789 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:27:21.789 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:27:23.779 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:27:24.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 710.357ms
+2025-05-11 22:27:24.502 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:27:24.511 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:27:24.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 26.137ms
+2025-05-11 22:27:24.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.8507ms
+2025-05-11 22:27:24.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:27:24.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 246.9104ms
+2025-05-11 22:27:47.327 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 32
+2025-05-11 22:27:47.382 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:27:47.483 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:27:48.567 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-11 22:27:48.681 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 1188.4899ms
+2025-05-11 22:27:48.681 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:27:48.687 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 400 null application/problem+json; charset=utf-8 1360.3268ms
+2025-05-11 22:30:49.153 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:30:49.212 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:30:49.217 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:30:49.218 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:30:49.218 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:30:50.715 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:30:51.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 639.2773ms
+2025-05-11 22:30:51.511 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:30:51.511 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:30:51.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 26.5355ms
+2025-05-11 22:30:51.605 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.3371ms
+2025-05-11 22:30:51.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:30:51.961 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.2632ms
+2025-05-11 22:31:03.957 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 32
+2025-05-11 22:31:03.990 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:31:04.118 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:31:05.155 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-11 22:31:05.278 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 1145.1395ms
+2025-05-11 22:31:05.279 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:31:05.283 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 400 null application/problem+json; charset=utf-8 1326.1056ms
+2025-05-11 22:31:39.590 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:31:39.638 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:31:39.647 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:31:39.649 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:31:39.649 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:31:43.976 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:31:44.594 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 629.4942ms
+2025-05-11 22:31:44.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:31:44.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:31:44.736 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.9497ms
+2025-05-11 22:31:44.802 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.6825ms
+2025-05-11 22:31:44.967 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:31:45.211 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 244.7801ms
+2025-05-11 22:31:56.945 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 21
+2025-05-11 22:31:56.979 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:31:57.081 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:31:57.901 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-11 22:31:58.009 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 919.2039ms
+2025-05-11 22:31:58.010 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:31:58.014 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 400 null application/problem+json; charset=utf-8 1069.2245ms
+2025-05-11 22:33:07.295 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:33:07.354 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:33:07.357 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:33:07.358 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:33:07.358 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:33:10.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:33:11.508 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 954.5283ms
+2025-05-11 22:33:11.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:33:11.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:33:11.597 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 16.6355ms
+2025-05-11 22:33:11.692 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.6546ms
+2025-05-11 22:33:11.814 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:33:12.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 383.2819ms
+2025-05-11 22:33:30.736 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 52
+2025-05-11 22:33:30.762 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:33:30.844 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:33:44.908 +05:30 [INF] Executed DbCommand (639ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:33:45.122 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CropMaster_Season_Master_SeasonId". The conflict occurred in database "CRUDEmployee", table "dbo.Season_Master", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:11321c81-e094-4f5d-ba57-41d1d2300b85
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CropMaster_Season_Master_SeasonId". The conflict occurred in database "CRUDEmployee", table "dbo.Season_Master", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:11321c81-e094-4f5d-ba57-41d1d2300b85
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-05-11 22:34:11.806 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:34:11.870 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:34:11.881 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:34:11.882 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:34:11.882 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:34:13.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:34:13.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 682.9244ms
+2025-05-11 22:34:13.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:34:13.750 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:34:13.768 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 24.0694ms
+2025-05-11 22:34:13.854 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.3216ms
+2025-05-11 22:34:14.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:34:14.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.408ms
+2025-05-11 22:34:41.823 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 32
+2025-05-11 22:34:41.847 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:34:41.952 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:34:42.791 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-11 22:34:42.994 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 1012.9244ms
+2025-05-11 22:34:42.995 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:34:43.000 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 400 null application/problem+json; charset=utf-8 1176.5475ms
+2025-05-11 22:36:20.324 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:36:20.408 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:36:20.412 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:36:20.415 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:36:20.415 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:36:23.449 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:36:24.062 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 627.8983ms
+2025-05-11 22:36:24.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:36:24.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:36:24.174 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.2842ms
+2025-05-11 22:36:24.248 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.505ms
+2025-05-11 22:36:24.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:36:24.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 278.4949ms
+2025-05-11 22:36:48.449 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 32
+2025-05-11 22:36:48.474 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:36:48.572 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:37:01.057 +05:30 [INF] Executed DbCommand (676ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:37:01.229 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:37:01.272 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 12684.3751ms
+2025-05-11 22:37:01.272 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:01.308 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 12860.0307ms
+2025-05-11 22:37:17.373 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 37
+2025-05-11 22:37:17.380 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:17.381 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:37:21.823 +05:30 [INF] Executed DbCommand (410ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:37:21.826 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:37:21.828 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 4446.2781ms
+2025-05-11 22:37:21.828 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:21.829 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 4455.683ms
+2025-05-11 22:37:33.567 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 33
+2025-05-11 22:37:33.568 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:33.569 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:37:37.607 +05:30 [INF] Executed DbCommand (506ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:37:37.608 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:37:37.609 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 4039.5449ms
+2025-05-11 22:37:37.609 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:37.609 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 4042.8616ms
+2025-05-11 22:37:48.039 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 33
+2025-05-11 22:37:48.040 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:48.042 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:37:50.808 +05:30 [INF] Executed DbCommand (397ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:37:50.809 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:37:50.809 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 2767.5653ms
+2025-05-11 22:37:50.809 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:37:50.810 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 2771.4887ms
+2025-05-11 22:38:16.886 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 52
+2025-05-11 22:38:16.888 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:38:16.898 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:38:30.798 +05:30 [INF] Executed DbCommand (410ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:38:30.803 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:38:30.806 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 13907.5485ms
+2025-05-11 22:38:30.806 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:38:30.806 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 13919.7983ms
+2025-05-11 22:40:17.987 +05:30 [INF] Executed DbCommand (405ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-11 22:40:18.805 +05:30 [INF] Executed DbCommand (753ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-11 22:40:19.192 +05:30 [INF] Executed DbCommand (384ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-11 22:40:19.763 +05:30 [INF] Executed DbCommand (570ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-11 22:40:20.242 +05:30 [INF] Executed DbCommand (455ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-11 22:40:20.264 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-05-11 22:41:46.955 +05:30 [INF] Executed DbCommand (450ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-11 22:41:47.740 +05:30 [INF] Executed DbCommand (689ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-11 22:41:48.164 +05:30 [INF] Executed DbCommand (421ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-11 22:41:48.588 +05:30 [INF] Executed DbCommand (423ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-11 22:41:49.001 +05:30 [INF] Executed DbCommand (391ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-11 22:41:49.030 +05:30 [INF] Applying migration '20250511171103_SeasonNew'.
+2025-05-11 22:41:50.205 +05:30 [INF] Executed DbCommand (454ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Season_Master] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Season_Master] PRIMARY KEY ([Id])
+);
+2025-05-11 22:41:50.651 +05:30 [INF] Executed DbCommand (444ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [CropMaster] (
+    [ID] int NOT NULL IDENTITY,
+    [CropName] nvarchar(max) NOT NULL,
+    [SeasonId] int NOT NULL,
+    CONSTRAINT [PK_CropMaster] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_CropMaster_Season_Master_SeasonId] FOREIGN KEY ([SeasonId]) REFERENCES [Season_Master] ([Id]) ON DELETE NO ACTION
+);
+2025-05-11 22:41:51.091 +05:30 [INF] Executed DbCommand (440ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductMaster] (
+    [ID] int NOT NULL IDENTITY,
+    [ProductName] nvarchar(max) NOT NULL,
+    [CropId] int NOT NULL,
+    CONSTRAINT [PK_ProductMaster] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_ProductMaster_CropMaster_CropId] FOREIGN KEY ([CropId]) REFERENCES [CropMaster] ([ID]) ON DELETE NO ACTION
+);
+2025-05-11 22:41:51.544 +05:30 [INF] Executed DbCommand (452ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_CropMaster_SeasonId] ON [CropMaster] ([SeasonId]);
+2025-05-11 22:41:51.956 +05:30 [INF] Executed DbCommand (411ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductMaster_CropId] ON [ProductMaster] ([CropId]);
+2025-05-11 22:41:52.366 +05:30 [INF] Executed DbCommand (409ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250511171103_SeasonNew', N'8.0.0');
+2025-05-11 22:42:17.730 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:42:17.805 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:42:17.812 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:42:17.817 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:42:17.817 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:42:20.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:42:20.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 666.2305ms
+2025-05-11 22:42:20.774 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:42:20.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.9682ms
+2025-05-11 22:42:20.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:42:20.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.671ms
+2025-05-11 22:42:21.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:42:21.271 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 247.2687ms
+2025-05-11 22:42:36.982 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 32
+2025-05-11 22:42:37.007 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:42:37.120 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:42:46.388 +05:30 [INF] Executed DbCommand (783ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:42:46.583 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:42:46.618 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 9487.0816ms
+2025-05-11 22:42:46.618 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:42:46.646 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 9664.3814ms
+2025-05-11 22:42:55.668 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 37
+2025-05-11 22:42:55.676 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:42:55.676 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:42:56.376 +05:30 [INF] Executed DbCommand (475ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:42:56.379 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:42:56.381 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 703.3606ms
+2025-05-11 22:42:56.382 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:42:56.382 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 716.7094ms
+2025-05-11 22:43:09.105 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 33
+2025-05-11 22:43:09.106 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:43:09.106 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:43:09.567 +05:30 [INF] Executed DbCommand (401ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:43:09.568 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:43:09.569 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 462.4923ms
+2025-05-11 22:43:09.569 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:43:09.569 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 464.7298ms
+2025-05-11 22:43:15.659 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - application/json 33
+2025-05-11 22:43:15.661 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:43:15.662 +05:30 [INF] Route matched with {action = "AddSeasonData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSeasonData(EmployeeApp.Model.Request.Season_Master) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:43:16.127 +05:30 [INF] Executed DbCommand (460ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Season_Master] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-05-11 22:43:16.128 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.Season_Master'.
+2025-05-11 22:43:16.129 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService) in 466.8952ms
+2025-05-11 22:43:16.129 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddSeasonData (EmployeeAppService)'
+2025-05-11 22:43:16.130 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddSeasonData - 200 null application/json; charset=utf-8 471.2103ms
+2025-05-11 22:43:34.572 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 52
+2025-05-11 22:43:34.574 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:43:34.589 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:43:35.156 +05:30 [INF] Executed DbCommand (482ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:43:35.163 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:43:35.168 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 578.3106ms
+2025-05-11 22:43:35.169 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:43:35.169 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 597.523ms
+2025-05-11 22:44:18.059 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 52
+2025-05-11 22:44:18.060 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:44:18.060 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:44:18.481 +05:30 [INF] Executed DbCommand (410ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:44:18.483 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:44:18.483 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 423.0251ms
+2025-05-11 22:44:18.483 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:44:18.484 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 433.4363ms
+2025-05-11 22:44:22.564 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 52
+2025-05-11 22:44:22.565 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:44:22.566 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:44:22.988 +05:30 [INF] Executed DbCommand (417ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:44:22.989 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:44:22.990 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 423.4855ms
+2025-05-11 22:44:22.990 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:44:22.990 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 426.7804ms
+2025-05-11 22:44:34.940 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 54
+2025-05-11 22:44:34.942 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:44:34.942 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:44:35.343 +05:30 [INF] Executed DbCommand (394ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:44:35.346 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:44:35.346 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 404.2794ms
+2025-05-11 22:44:35.346 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:44:35.347 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 407.1943ms
+2025-05-11 22:47:01.619 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 55
+2025-05-11 22:47:01.624 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:47:01.625 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:47:02.050 +05:30 [INF] Executed DbCommand (395ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:47:02.051 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:47:02.052 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 423.6051ms
+2025-05-11 22:47:02.052 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:47:02.052 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 436.9032ms
+2025-05-11 22:47:09.034 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 56
+2025-05-11 22:47:09.035 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:47:09.035 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:47:09.489 +05:30 [INF] Executed DbCommand (448ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:47:09.490 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:47:09.491 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 456.2497ms
+2025-05-11 22:47:09.491 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:47:09.492 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 457.7195ms
+2025-05-11 22:47:16.253 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - application/json 54
+2025-05-11 22:47:16.254 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:47:16.254 +05:30 [INF] Route matched with {action = "AddCropData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCropData(EmployeeApp.Model.Request.CropMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:47:16.729 +05:30 [INF] Executed DbCommand (470ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CropMaster] ([CropName], [SeasonId])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:47:16.730 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.CropMaster'.
+2025-05-11 22:47:16.730 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService) in 475.8154ms
+2025-05-11 22:47:16.730 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddCropData (EmployeeAppService)'
+2025-05-11 22:47:16.730 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddCropData - 200 null application/json; charset=utf-8 477.451ms
+2025-05-11 22:49:35.827 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 54
+2025-05-11 22:49:35.835 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:49:35.865 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:49:36.316 +05:30 [INF] Executed DbCommand (397ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:49:36.327 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:49:36.330 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 463.9159ms
+2025-05-11 22:49:36.330 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:49:36.330 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 504.0043ms
+2025-05-11 22:49:51.943 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 55
+2025-05-11 22:49:51.946 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:49:51.946 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:49:52.370 +05:30 [INF] Executed DbCommand (416ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:49:52.371 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:49:52.372 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 425.28ms
+2025-05-11 22:49:52.372 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:49:52.372 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 429.6709ms
+2025-05-11 22:50:02.030 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 55
+2025-05-11 22:50:02.031 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:02.031 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:50:02.467 +05:30 [INF] Executed DbCommand (406ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:50:02.468 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:50:02.468 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 437.1983ms
+2025-05-11 22:50:02.469 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:02.469 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 439.206ms
+2025-05-11 22:50:14.563 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 56
+2025-05-11 22:50:14.564 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:14.564 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:50:15.004 +05:30 [INF] Executed DbCommand (431ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:50:15.005 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:50:15.006 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 441.7089ms
+2025-05-11 22:50:15.006 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:15.007 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 447.2083ms
+2025-05-11 22:50:24.937 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 56
+2025-05-11 22:50:24.940 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:24.941 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:50:25.348 +05:30 [INF] Executed DbCommand (398ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:50:25.349 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:50:25.350 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 408.7048ms
+2025-05-11 22:50:25.350 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:25.350 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 413.0471ms
+2025-05-11 22:50:35.977 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 57
+2025-05-11 22:50:35.978 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:35.978 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:50:36.407 +05:30 [INF] Executed DbCommand (422ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:50:36.408 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:50:36.409 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 430.3801ms
+2025-05-11 22:50:36.409 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:36.409 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 432.3461ms
+2025-05-11 22:50:44.725 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 53
+2025-05-11 22:50:44.725 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:44.726 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:50:45.134 +05:30 [INF] Executed DbCommand (404ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:50:45.135 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:50:45.135 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 408.5936ms
+2025-05-11 22:50:45.135 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:45.135 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 411.0868ms
+2025-05-11 22:50:54.416 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 56
+2025-05-11 22:50:54.418 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:54.418 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:50:55.860 +05:30 [INF] Executed DbCommand (1,412ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:50:55.861 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:50:55.861 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 1443.2825ms
+2025-05-11 22:50:55.862 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:50:55.862 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 1446.4182ms
+2025-05-11 22:51:07.027 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 56
+2025-05-11 22:51:07.028 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:51:07.028 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:51:08.452 +05:30 [INF] Executed DbCommand (1,419ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:51:08.453 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:51:08.453 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 1424.7112ms
+2025-05-11 22:51:08.453 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:51:08.453 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 1426.5364ms
+2025-05-11 22:51:41.744 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 55
+2025-05-11 22:51:41.744 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:51:41.745 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:51:43.614 +05:30 [INF] Executed DbCommand (1,831ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:51:43.615 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:51:43.616 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 1871.0548ms
+2025-05-11 22:51:43.616 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:51:43.616 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 1876.9021ms
+2025-05-11 22:51:51.791 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 55
+2025-05-11 22:51:51.793 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:51:51.794 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:51:52.213 +05:30 [INF] Executed DbCommand (415ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:51:52.214 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:51:52.214 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 420.0742ms
+2025-05-11 22:51:52.214 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:51:52.215 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 423.8863ms
+2025-05-11 22:52:16.297 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 58
+2025-05-11 22:52:16.298 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:52:16.299 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:52:16.880 +05:30 [INF] Executed DbCommand (552ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:52:16.881 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:52:16.881 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 582.4369ms
+2025-05-11 22:52:16.881 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:52:16.882 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 585.5088ms
+2025-05-11 22:52:24.973 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 56
+2025-05-11 22:52:24.974 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:52:24.974 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:52:25.373 +05:30 [INF] Executed DbCommand (395ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:52:25.374 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:52:25.374 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 399.9457ms
+2025-05-11 22:52:25.374 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:52:25.374 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 400.8554ms
+2025-05-11 22:52:32.284 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - application/json 56
+2025-05-11 22:52:32.290 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:52:32.290 +05:30 [INF] Route matched with {action = "AddProdcut", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProdcut(EmployeeApp.Model.Request.ProductMaster) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:52:32.686 +05:30 [INF] Executed DbCommand (393ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductMaster] ([CropId], [ProductName])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2025-05-11 22:52:32.687 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Request.ProductMaster'.
+2025-05-11 22:52:32.688 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService) in 398.3091ms
+2025-05-11 22:52:32.688 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.AddProdcut (EmployeeAppService)'
+2025-05-11 22:52:32.689 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7217/api/Employee/AddProduct - 200 null application/json; charset=utf-8 405.081ms
+2025-05-11 22:53:20.355 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/GetCrop_ProductData - null null
+2025-05-11 22:53:20.360 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService)'
+2025-05-11 22:53:20.385 +05:30 [INF] Route matched with {action = "GetCrop_ProductData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCrop_ProductData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:53:22.514 +05:30 [INF] Executed DbCommand (429ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[CropName], [t].[ProductId], [t].[ProductName], [t].[CropId]
+FROM [CropMaster] AS [c]
+OUTER APPLY (
+    SELECT [p].[ID] AS [ProductId], [p].[ProductName], [p].[CropId]
+    FROM [ProductMaster] AS [p]
+    WHERE [c].[ID] = [p].[CropId]
+) AS [t]
+ORDER BY [c].[ID]
+2025-05-11 22:53:22.561 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-11 22:53:22.640 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService) in 2254.6574ms
+2025-05-11 22:53:22.640 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService)'
+2025-05-11 22:53:22.640 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/GetCrop_ProductData - 200 null application/json; charset=utf-8 2285.4846ms
+2025-05-11 22:59:20.137 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-11 22:59:20.213 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-11 22:59:20.218 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 22:59:20.219 +05:30 [INF] Hosting environment: Development
+2025-05-11 22:59:20.219 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-11 22:59:22.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-11 22:59:23.011 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-11 22:59:23.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-11 22:59:23.027 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 856.469ms
+2025-05-11 22:59:23.045 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 33.3855ms
+2025-05-11 22:59:23.130 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.5335ms
+2025-05-11 22:59:23.292 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-11 22:59:23.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 262.461ms
+2025-05-11 22:59:30.963 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/GetCrop_ProductData - null null
+2025-05-11 22:59:31.029 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService)'
+2025-05-11 22:59:31.136 +05:30 [INF] Route matched with {action = "GetCrop_ProductData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCrop_ProductData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-11 22:59:36.230 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-11 22:59:41.333 +05:30 [INF] Executed DbCommand (776ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Name], [s].[Id], [t].[ID], [t].[CropName], [t].[ID0], [t].[ProductName], [t].[CropId]
+FROM [Season_Master] AS [s]
+OUTER APPLY (
+    SELECT [c].[ID], [c].[CropName], [p].[ID] AS [ID0], [p].[ProductName], [p].[CropId]
+    FROM [CropMaster] AS [c]
+    LEFT JOIN [ProductMaster] AS [p] ON [c].[ID] = [p].[CropId]
+    WHERE [s].[Id] = [c].[SeasonId]
+) AS [t]
+ORDER BY [s].[Id], [t].[ID]
+2025-05-11 22:59:41.497 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-11 22:59:41.634 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService) in 10478.1586ms
+2025-05-11 22:59:41.635 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService)'
+2025-05-11 22:59:41.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/GetCrop_ProductData - 200 null application/json; charset=utf-8 10706.7059ms

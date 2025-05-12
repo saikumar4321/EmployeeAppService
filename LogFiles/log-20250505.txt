@@ -1,0 +1,345 @@
+2025-05-05 12:28:51.430 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:28:51.500 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:28:51.505 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:28:51.506 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:28:51.506 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:28:53.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:28:53.888 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:28:53.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:28:53.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 704.7159ms
+2025-05-05 12:28:53.915 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 30.0268ms
+2025-05-05 12:28:53.988 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.0812ms
+2025-05-05 12:28:54.063 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:28:54.328 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 266.3166ms
+2025-05-05 12:29:01.971 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:29:01.991 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:29:02.047 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:29:14.017 +05:30 [INF] Executed DbCommand (321ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:29:14.633 +05:30 [INF] Executed DbCommand (562ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:35:38.126 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:35:38.161 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:35:38.163 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:35:38.164 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:35:38.164 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:35:39.054 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:35:39.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 367.7803ms
+2025-05-05 12:35:39.419 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:35:39.423 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:35:39.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.6205ms
+2025-05-05 12:35:39.468 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.4856ms
+2025-05-05 12:35:39.544 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:35:39.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.4682ms
+2025-05-05 12:36:59.115 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:36:59.139 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:36:59.210 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:37:19.083 +05:30 [INF] Executed DbCommand (389ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:37:19.564 +05:30 [INF] Executed DbCommand (424ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:39:34.872 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:39:34.894 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:39:34.896 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:39:34.896 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:39:34.896 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:39:35.519 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:39:35.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 308.452ms
+2025-05-05 12:39:35.826 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:39:35.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:39:35.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 14.99ms
+2025-05-05 12:39:35.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.1282ms
+2025-05-05 12:39:35.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:39:36.086 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.6991ms
+2025-05-05 12:39:54.765 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:39:54.784 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:39:54.839 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:40:05.303 +05:30 [INF] Executed DbCommand (393ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:40:05.792 +05:30 [INF] Executed DbCommand (415ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:40:30.402 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponseConstants'.
+2025-05-05 12:40:30.433 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 35590.2186ms
+2025-05-05 12:40:30.433 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:40:30.439 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - 200 null application/json; charset=utf-8 35674.7232ms
+2025-05-05 12:41:11.226 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:41:11.254 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:41:11.259 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:41:11.259 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:41:11.259 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:41:12.004 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:41:12.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 295.4554ms
+2025-05-05 12:41:12.301 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:41:12.306 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:41:12.309 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.4655ms
+2025-05-05 12:41:12.356 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.3891ms
+2025-05-05 12:41:12.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:41:12.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.6995ms
+2025-05-05 12:41:23.743 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:41:23.750 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:41:23.779 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:41:32.590 +05:30 [INF] Executed DbCommand (778ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:41:33.377 +05:30 [INF] Executed DbCommand (688ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:51:47.540 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:51:47.589 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:51:47.593 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:51:47.593 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:51:47.593 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:51:48.319 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:51:48.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 368.2052ms
+2025-05-05 12:51:48.696 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:51:48.696 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:51:48.704 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.6397ms
+2025-05-05 12:51:48.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.0673ms
+2025-05-05 12:51:48.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:51:49.039 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.2163ms
+2025-05-05 12:51:56.258 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:51:56.282 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:51:56.358 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:52:06.107 +05:30 [INF] Executed DbCommand (505ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:52:06.639 +05:30 [INF] Executed DbCommand (461ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:53:10.979 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:53:11.010 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:53:11.014 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:53:11.015 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:53:11.015 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:53:12.145 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:53:12.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 280.4858ms
+2025-05-05 12:53:12.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:53:12.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:53:12.445 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.0363ms
+2025-05-05 12:53:12.488 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.3981ms
+2025-05-05 12:53:12.560 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:53:12.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.1997ms
+2025-05-05 12:53:40.150 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:53:40.171 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:53:40.226 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:53:52.278 +05:30 [INF] Executed DbCommand (564ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:53:52.869 +05:30 [INF] Executed DbCommand (521ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:54:13.380 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:54:13.419 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:54:13.422 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:54:13.422 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:54:13.422 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:54:14.352 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:54:14.639 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 298.5208ms
+2025-05-05 12:54:14.652 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:54:14.654 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:54:14.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.3729ms
+2025-05-05 12:54:14.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.95ms
+2025-05-05 12:54:14.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:54:14.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.8517ms
+2025-05-05 12:54:20.191 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:54:20.213 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:54:20.271 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:54:30.289 +05:30 [INF] Executed DbCommand (558ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:54:30.872 +05:30 [INF] Executed DbCommand (387ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 12:54:33.359 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 12:54:33.448 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 13168.5375ms
+2025-05-05 12:54:33.449 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:54:33.467 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - 200 null application/json; charset=utf-8 13277.0635ms
+2025-05-05 12:58:20.271 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 12:58:20.298 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 12:58:20.300 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 12:58:20.300 +05:30 [INF] Hosting environment: Development
+2025-05-05 12:58:20.300 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 12:58:21.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 12:58:21.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 362.2225ms
+2025-05-05 12:58:21.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 12:58:21.492 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 12:58:21.495 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 16.0565ms
+2025-05-05 12:58:21.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.9418ms
+2025-05-05 12:58:21.616 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 12:58:21.716 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.2755ms
+2025-05-05 12:59:23.117 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 12:59:23.137 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 12:59:23.182 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 12:59:32.544 +05:30 [INF] Executed DbCommand (584ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 12:59:33.114 +05:30 [INF] Executed DbCommand (488ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:04:14.284 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 13:04:14.312 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 13:04:14.315 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 13:04:14.315 +05:30 [INF] Hosting environment: Development
+2025-05-05 13:04:14.315 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 13:04:15.607 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 13:04:15.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 294.2088ms
+2025-05-05 13:04:15.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 13:04:15.901 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 13:04:15.909 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.3248ms
+2025-05-05 13:04:15.943 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.8413ms
+2025-05-05 13:04:16.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 13:04:16.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.2749ms
+2025-05-05 13:04:22.443 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 13:04:22.462 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:04:22.519 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:04:31.862 +05:30 [INF] Executed DbCommand (546ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:04:32.567 +05:30 [INF] Executed DbCommand (537ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:04:39.283 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 13:04:39.330 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 16806.3996ms
+2025-05-05 13:04:39.331 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:04:39.341 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - 200 null application/json; charset=utf-8 16897.6762ms
+2025-05-05 13:08:00.336 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 13:08:00.363 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 13:08:00.367 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 13:08:00.368 +05:30 [INF] Hosting environment: Development
+2025-05-05 13:08:00.368 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 13:08:01.010 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 13:08:01.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 295.1657ms
+2025-05-05 13:08:01.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 13:08:01.311 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 13:08:01.313 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.2836ms
+2025-05-05 13:08:01.358 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0596ms
+2025-05-05 13:08:01.435 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 13:08:01.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.8317ms
+2025-05-05 13:08:16.831 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 13:08:16.853 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:08:16.915 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:08:28.006 +05:30 [INF] Executed DbCommand (323ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:08:28.577 +05:30 [INF] Executed DbCommand (501ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:10:27.503 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 13:10:27.531 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 13:10:27.533 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 13:10:27.533 +05:30 [INF] Hosting environment: Development
+2025-05-05 13:10:27.533 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 13:10:28.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 13:10:28.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 271.0663ms
+2025-05-05 13:10:28.716 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 13:10:28.725 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 13:10:28.728 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 12.2219ms
+2025-05-05 13:10:28.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.1086ms
+2025-05-05 13:10:28.843 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 13:10:28.943 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.1782ms
+2025-05-05 13:10:58.411 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 13:10:58.431 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:10:58.494 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:11:08.744 +05:30 [INF] Executed DbCommand (341ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:11:09.253 +05:30 [INF] Executed DbCommand (432ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:11:15.775 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 13:11:15.814 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 17315.6591ms
+2025-05-05 13:11:15.814 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:11:15.822 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - 200 null application/json; charset=utf-8 17411.7341ms
+2025-05-05 13:18:04.130 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 13:18:04.159 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 13:18:04.162 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 13:18:04.162 +05:30 [INF] Hosting environment: Development
+2025-05-05 13:18:04.163 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 13:18:05.139 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 13:18:05.413 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 281.5692ms
+2025-05-05 13:18:05.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 13:18:05.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 13:18:05.436 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.3703ms
+2025-05-05 13:18:05.483 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.9145ms
+2025-05-05 13:18:05.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 13:18:05.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.9233ms
+2025-05-05 13:18:17.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=9 - null null
+2025-05-05 13:18:17.077 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:18:17.152 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData(System.Nullable`1[System.Int32]) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:18:26.762 +05:30 [INF] Executed DbCommand (325ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:18:27.407 +05:30 [INF] Executed DbCommand (576ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:18:38.259 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 13:18:38.282 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 21125.5454ms
+2025-05-05 13:18:38.282 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:18:38.291 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=9 - 200 null application/json; charset=utf-8 21236.8256ms
+2025-05-05 13:18:45.765 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=1 - null null
+2025-05-05 13:18:45.787 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:18:45.788 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData(System.Nullable`1[System.Int32]) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:18:48.733 +05:30 [INF] Executed DbCommand (302ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:18:49.037 +05:30 [INF] Executed DbCommand (303ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:18:52.643 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 13:18:52.644 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 6855.529ms
+2025-05-05 13:18:52.644 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:18:52.645 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=1 - 200 null application/json; charset=utf-8 6879.3119ms
+2025-05-05 13:19:45.714 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=1 - null null
+2025-05-05 13:19:45.717 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:19:45.717 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData(System.Nullable`1[System.Int32]) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:19:49.972 +05:30 [INF] Executed DbCommand (354ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:19:50.590 +05:30 [INF] Executed DbCommand (617ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:20:53.528 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-05 13:20:53.568 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-05 13:20:53.571 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 13:20:53.571 +05:30 [INF] Hosting environment: Development
+2025-05-05 13:20:53.572 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-05 13:20:54.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-05 13:20:54.816 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 303.801ms
+2025-05-05 13:20:54.824 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 13:20:54.832 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.027ms
+2025-05-05 13:20:54.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-05 13:20:54.899 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.2002ms
+2025-05-05 13:20:54.979 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-05 13:20:55.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.5374ms
+2025-05-05 13:21:02.821 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=1 - null null
+2025-05-05 13:21:02.842 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:21:02.907 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData(System.Nullable`1[System.Int32]) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:21:11.809 +05:30 [INF] Executed DbCommand (676ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:21:12.405 +05:30 [INF] Executed DbCommand (525ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:21:16.079 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 13:21:16.107 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 13195.0397ms
+2025-05-05 13:21:16.107 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:21:16.113 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData?EMPId=1 - 404 null application/json; charset=utf-8 13292.7287ms
+2025-05-05 13:21:25.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-05 13:21:25.334 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:21:25.337 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData(System.Nullable`1[System.Int32]) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-05 13:21:30.731 +05:30 [INF] Executed DbCommand (325ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-05 13:21:31.052 +05:30 [INF] Executed DbCommand (320ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-05 13:21:35.866 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-05 13:21:35.867 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 10529.3164ms
+2025-05-05 13:21:35.868 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-05 13:21:35.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeData - 200 null application/json; charset=utf-8 10537.8524ms
