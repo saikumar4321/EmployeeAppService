@@ -8,12 +8,12 @@ using EmployeeApp.Model.Utils;
 using EmployeeApp.Model.Responce;
 using Azure;
 using Microsoft.Identity.Client;
-
+  
 
 namespace EmployeeAppService.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController]    
     public class EmployeeController : ControllerBase
     {
         //ApiResponseConstants response = null;
