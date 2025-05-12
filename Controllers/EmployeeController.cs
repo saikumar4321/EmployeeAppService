@@ -13,7 +13,7 @@ using Microsoft.Identity.Client;
 namespace EmployeeAppService.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]    
+    [ApiController]         
     public class EmployeeController : ControllerBase
     {
         //ApiResponseConstants response = null;
@@ -26,7 +26,7 @@ namespace EmployeeAppService.Controllers
 
         private readonly ILogger<EmployeeController> _logger;
         public EmployeeController(IEmployee employee, ILogger<EmployeeController> logger)
-        {
+        {   
 
             _employeeController = employee;
             _logger = logger;
