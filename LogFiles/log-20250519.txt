@@ -1,0 +1,31 @@
+2025-05-19 18:42:32.958 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-19 18:42:33.000 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-19 18:42:33.003 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-19 18:42:33.003 +05:30 [INF] Hosting environment: Development
+2025-05-19 18:42:33.003 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-19 18:42:34.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-19 18:42:34.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 811.0534ms
+2025-05-19 18:42:34.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-19 18:42:34.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-19 18:42:34.853 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 26.9384ms
+2025-05-19 18:42:34.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.2097ms
+2025-05-19 18:42:35.087 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-19 18:42:35.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 275.9871ms
+2025-05-19 18:42:42.253 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/GetCrop_ProductData - null null
+2025-05-19 18:42:42.287 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService)'
+2025-05-19 18:42:42.362 +05:30 [INF] Route matched with {action = "GetCrop_ProductData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCrop_ProductData() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-19 18:42:47.349 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-19 18:42:52.396 +05:30 [INF] Executed DbCommand (638ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Name], [s].[Id], [t].[ID], [t].[CropName], [t].[ID0], [t].[ProductName], [t].[CropId]
+FROM [Season_Master] AS [s]
+OUTER APPLY (
+    SELECT [c].[ID], [c].[CropName], [p].[ID] AS [ID0], [p].[ProductName], [p].[CropId]
+    FROM [CropMaster] AS [c]
+    LEFT JOIN [ProductMaster] AS [p] ON [c].[ID] = [p].[CropId]
+    WHERE [s].[Id] = [c].[SeasonId]
+) AS [t]
+ORDER BY [s].[Id], [t].[ID]
+2025-05-19 18:42:54.671 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-19 18:42:54.735 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService) in 12366.4087ms
+2025-05-19 18:42:54.735 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.GetCrop_ProductData (EmployeeAppService)'
+2025-05-19 18:42:54.749 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/GetCrop_ProductData - 200 null application/json; charset=utf-8 12496.9162ms

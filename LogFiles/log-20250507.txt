@@ -1,0 +1,993 @@
+2025-05-07 11:50:39.697 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 11:50:39.722 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 11:50:39.724 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 11:50:39.724 +05:30 [INF] Hosting environment: Development
+2025-05-07 11:50:39.724 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 11:50:40.596 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 11:50:40.913 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 324.1504ms
+2025-05-07 11:50:40.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 11:50:40.941 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 11:50:40.950 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 13.0036ms
+2025-05-07 11:50:41.024 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.9351ms
+2025-05-07 11:50:41.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 11:50:41.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/favicon-32x32.png - null null
+2025-05-07 11:50:41.289 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-07 11:50:41.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/favicon-32x32.png - 200 628 image/png 21.3897ms
+2025-05-07 11:50:41.392 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.2634ms
+2025-05-07 11:50:45.438 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - null null
+2025-05-07 11:50:45.447 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-07 11:50:45.516 +05:30 [INF] Route matched with {action = "EmployeeData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeData(System.Nullable`1[System.Int32]) on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 11:50:56.256 +05:30 [INF] Executed DbCommand (452ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-07 11:50:56.735 +05:30 [INF] Executed DbCommand (367ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 11:51:03.970 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 11:51:03.994 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService) in 18474.4056ms
+2025-05-07 11:51:03.994 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeData (EmployeeAppService)'
+2025-05-07 11:51:04.003 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7217/api/Employee/EmployeeData - 200 null application/json; charset=utf-8 18564.9845ms
+2025-05-07 12:13:12.968 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:13:12.995 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:13:12.997 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:13:12.997 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:13:12.998 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:13:14.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:13:14.362 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 318.1449ms
+2025-05-07 12:13:14.372 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:13:14.382 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:13:14.383 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.6399ms
+2025-05-07 12:13:14.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.5206ms
+2025-05-07 12:13:14.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:13:14.779 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.2824ms
+2025-05-07 12:13:23.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:13:23.716 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:13:23.754 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:15:57.771 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:15:57.797 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:15:57.799 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:15:57.800 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:15:57.800 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:15:58.652 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:15:58.914 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 268.0086ms
+2025-05-07 12:15:58.930 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:15:58.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:15:58.936 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.9404ms
+2025-05-07 12:15:58.979 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.1579ms
+2025-05-07 12:15:59.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:15:59.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.6076ms
+2025-05-07 12:16:03.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:16:03.858 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:16:03.881 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:16:40.442 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:16:40.469 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:16:40.472 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:16:40.472 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:16:40.472 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:16:41.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:16:41.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 325.1598ms
+2025-05-07 12:16:41.460 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:16:41.462 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:16:41.482 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 19.9337ms
+2025-05-07 12:16:41.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.592ms
+2025-05-07 12:16:41.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:16:41.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.1343ms
+2025-05-07 12:17:03.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:17:03.591 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:17:03.619 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:17:10.602 +05:30 [ERR] Failed executing DbCommand (468ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Discriminator], [e].[Name], [e].[RoleName], [e].[EmployeeInfoEMPId]
+FROM [EmployeeDataResponce] AS [e]
+WHERE [e].[Discriminator] = N'Roles'
+2025-05-07 12:17:10.674 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'EmployeeDataResponce'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ba0fe792-41c2-4f69-9967-55a2c1c378f5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'EmployeeDataResponce'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ba0fe792-41c2-4f69-9967-55a2c1c378f5
+Error Number:208,State:1,Class:16
+2025-05-07 12:18:04.317 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:18:04.355 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:18:04.358 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:18:04.358 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:18:04.358 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:18:04.926 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:18:05.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 282.54ms
+2025-05-07 12:18:05.213 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:18:05.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:18:05.222 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.1804ms
+2025-05-07 12:18:05.270 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.3784ms
+2025-05-07 12:18:05.356 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:18:05.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.377ms
+2025-05-07 12:18:11.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:18:11.239 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:18:11.260 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:18:18.442 +05:30 [ERR] Failed executing DbCommand (312ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Discriminator], [e].[Name], [e].[RoleName], [e].[EmployeeInfoEMPId]
+FROM [EmployeeDataResponce] AS [e]
+WHERE [e].[Discriminator] = N'Roles'
+2025-05-07 12:18:18.473 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'EmployeeDataResponce'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:484f21f5-b958-4687-a868-dd04fd466edc
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'EmployeeDataResponce'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:484f21f5-b958-4687-a868-dd04fd466edc
+Error Number:208,State:1,Class:16
+2025-05-07 12:37:10.856 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:37:10.887 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:37:10.890 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:37:10.890 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:37:10.891 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:37:12.281 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:37:12.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 342.7471ms
+2025-05-07 12:37:12.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:37:12.653 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:37:12.660 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 15.7732ms
+2025-05-07 12:37:12.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.4617ms
+2025-05-07 12:37:12.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:37:12.942 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.7595ms
+2025-05-07 12:37:50.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:37:50.113 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:37:50.150 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:37:56.414 +05:30 [INF] Executed DbCommand (380ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 12:42:48.207 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:42:48.229 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:42:48.231 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:42:48.231 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:42:48.231 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:42:49.323 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:42:49.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 288.7282ms
+2025-05-07 12:42:49.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:42:49.621 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:42:49.624 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.5393ms
+2025-05-07 12:42:49.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.0989ms
+2025-05-07 12:42:49.759 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:42:49.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.9152ms
+2025-05-07 12:42:55.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:42:55.211 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:42:55.237 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:43:01.513 +05:30 [ERR] Failed executing DbCommand (325ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[Discriminator], [r].[RoleName], [r].[EmployeeInfoEMPId]
+FROM [Role] AS [r]
+2025-05-07 12:43:01.589 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'EmployeeInfoEMPId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:c11b2199-a8fb-4082-95c5-b56b3965c1bd
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'EmployeeInfoEMPId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:c11b2199-a8fb-4082-95c5-b56b3965c1bd
+Error Number:207,State:1,Class:16
+2025-05-07 12:43:39.381 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 44141.5483ms
+2025-05-07 12:43:39.387 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:43:39.395 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'EmployeeInfoEMPId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EmployeeApp.DAL.Configurations.EmployeeConfigurations.EmployeeInfo() in D:\Microservices_Samples\EmployeeApp.DAL\Configurations\EmployeeConfigurations.cs:line 112
+   at EmployeeAppService.Controllers.EmployeeController.EmployeeInfo() in D:\Microservices_Samples\EmployeeAppService\Controllers\EmployeeController.cs:line 124
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:c11b2199-a8fb-4082-95c5-b56b3965c1bd
+Error Number:207,State:1,Class:16
+2025-05-07 12:43:39.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 500 null text/plain; charset=utf-8 44231.5496ms
+2025-05-07 12:46:25.924 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:46:25.949 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:46:25.951 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:46:25.951 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:46:25.951 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:46:26.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:46:26.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 301.1735ms
+2025-05-07 12:46:26.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:46:26.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:46:26.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.1128ms
+2025-05-07 12:46:27.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.4923ms
+2025-05-07 12:46:27.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:46:27.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.0238ms
+2025-05-07 12:46:33.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:46:33.016 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:46:33.043 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:46:38.751 +05:30 [ERR] Failed executing DbCommand (472ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[Discriminator], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 12:46:38.782 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0f63f946-3848-4b33-ba07-6474ee80db2c
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0f63f946-3848-4b33-ba07-6474ee80db2c
+Error Number:207,State:1,Class:16
+2025-05-07 12:47:21.545 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:47:21.570 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:47:21.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:47:21.572 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:47:21.572 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:47:22.382 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:47:22.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 275.539ms
+2025-05-07 12:47:22.664 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:47:22.665 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:47:22.672 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.5026ms
+2025-05-07 12:47:22.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.536ms
+2025-05-07 12:47:22.790 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:47:22.882 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.4547ms
+2025-05-07 12:47:27.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:47:27.881 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:47:27.909 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:47:39.852 +05:30 [ERR] Failed executing DbCommand (499ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[Discriminator], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[Discriminator] = N'Roles'
+2025-05-07 12:47:39.881 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1cfc0c6e-8255-4745-95ba-91a85604734c
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1cfc0c6e-8255-4745-95ba-91a85604734c
+Error Number:207,State:1,Class:16
+2025-05-07 12:47:57.163 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 29250.433ms
+2025-05-07 12:47:57.164 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:47:57.168 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EmployeeApp.DAL.Configurations.EmployeeConfigurations.EmployeeInfo() in D:\Microservices_Samples\EmployeeApp.DAL\Configurations\EmployeeConfigurations.cs:line 112
+   at EmployeeAppService.Controllers.EmployeeController.EmployeeInfo() in D:\Microservices_Samples\EmployeeAppService\Controllers\EmployeeController.cs:line 124
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:1cfc0c6e-8255-4745-95ba-91a85604734c
+Error Number:207,State:1,Class:16
+2025-05-07 12:47:57.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 500 null text/plain; charset=utf-8 29346.2706ms
+2025-05-07 12:48:36.464 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:48:36.489 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:48:36.491 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:48:36.492 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:48:36.492 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:48:37.495 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:48:37.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 306.8638ms
+2025-05-07 12:48:37.816 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:48:37.816 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:48:37.822 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.6446ms
+2025-05-07 12:48:37.878 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.4621ms
+2025-05-07 12:48:37.952 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:48:38.053 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.0144ms
+2025-05-07 12:48:42.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:48:42.506 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:48:42.527 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:48:48.774 +05:30 [ERR] Failed executing DbCommand (451ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[Discriminator], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[Discriminator] = N'Roles'
+2025-05-07 12:48:48.829 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:256083fc-abf5-48d7-a37f-cb916c2dc49e
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:256083fc-abf5-48d7-a37f-cb916c2dc49e
+Error Number:207,State:1,Class:16
+2025-05-07 12:49:16.711 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:49:16.741 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:49:16.745 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:49:16.746 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:49:16.746 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:49:17.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:49:17.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 261.1854ms
+2025-05-07 12:49:18.008 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:49:18.010 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:49:18.021 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 12.787ms
+2025-05-07 12:49:18.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.2853ms
+2025-05-07 12:49:18.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:49:18.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.4794ms
+2025-05-07 12:49:24.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:49:24.165 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:49:24.183 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:49:31.988 +05:30 [ERR] Failed executing DbCommand (303ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[Discriminator], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 12:49:32.017 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d9d32f94-0fc2-4f62-a1ca-8087c46209e9
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d9d32f94-0fc2-4f62-a1ca-8087c46209e9
+Error Number:207,State:1,Class:16
+2025-05-07 12:51:30.256 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:51:30.285 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:51:30.287 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:51:30.288 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:51:30.288 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:51:30.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:51:30.921 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 258.5713ms
+2025-05-07 12:51:30.938 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:51:30.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:51:30.944 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.0401ms
+2025-05-07 12:51:30.979 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.9487ms
+2025-05-07 12:51:31.050 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:51:31.143 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.8501ms
+2025-05-07 12:51:36.043 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:51:36.056 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:51:36.078 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:51:45.515 +05:30 [ERR] Failed executing DbCommand (317ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Roles] AS [r]
+2025-05-07 12:51:45.540 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Roles'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1611e77d-b686-44ff-b48b-22fbf7dcb874
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Roles'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1611e77d-b686-44ff-b48b-22fbf7dcb874
+Error Number:208,State:1,Class:16
+2025-05-07 12:52:47.501 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:52:47.525 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:52:47.527 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:52:47.527 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:52:47.528 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:52:48.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:52:48.732 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 284.7086ms
+2025-05-07 12:52:48.749 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:52:48.749 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:52:48.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 12.6036ms
+2025-05-07 12:52:48.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.7471ms
+2025-05-07 12:52:48.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:52:48.959 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.1339ms
+2025-05-07 12:53:06.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:53:06.104 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:53:06.125 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:53:11.797 +05:30 [INF] Executed DbCommand (545ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 12:53:46.921 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:53:46.953 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:53:46.956 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:53:46.956 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:53:46.956 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:53:47.861 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:53:48.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 281.9509ms
+2025-05-07 12:53:48.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:53:48.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:53:48.168 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 13.7781ms
+2025-05-07 12:53:48.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.6061ms
+2025-05-07 12:53:48.318 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:53:48.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.5412ms
+2025-05-07 12:54:01.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:54:01.871 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:54:01.900 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:54:07.661 +05:30 [ERR] Failed executing DbCommand (331ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[Discriminator], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 12:54:07.703 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeApp.DAL.EmployeeDBContext.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:a432317e-3d9a-459e-bd0e-17f7b8bf81d8
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:a432317e-3d9a-459e-bd0e-17f7b8bf81d8
+Error Number:207,State:1,Class:16
+2025-05-07 12:55:49.519 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 12:55:49.544 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 12:55:49.546 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:55:49.547 +05:30 [INF] Hosting environment: Development
+2025-05-07 12:55:49.547 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 12:55:50.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 12:55:50.662 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 259.1344ms
+2025-05-07 12:55:50.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:55:50.677 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 12:55:50.685 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.9963ms
+2025-05-07 12:55:50.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.1196ms
+2025-05-07 12:55:50.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 12:55:50.889 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.7889ms
+2025-05-07 12:55:55.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 12:55:55.693 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 12:55:55.713 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 12:56:02.820 +05:30 [INF] Executed DbCommand (492ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:03:55.430 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:03:55.459 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:03:55.461 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:03:55.461 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:03:55.461 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:03:56.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:03:56.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 261.9733ms
+2025-05-07 13:03:56.559 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:03:56.560 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:03:56.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.0978ms
+2025-05-07 13:03:56.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.5288ms
+2025-05-07 13:03:56.690 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:03:56.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.2158ms
+2025-05-07 13:04:01.141 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:04:01.151 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:04:01.171 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:04:07.141 +05:30 [INF] Executed DbCommand (482ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:08:19.408 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:08:19.431 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:08:19.433 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:08:19.433 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:08:19.433 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:08:20.186 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:08:20.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 264.9175ms
+2025-05-07 13:08:20.465 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:08:20.465 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:08:20.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.1787ms
+2025-05-07 13:08:20.516 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.2869ms
+2025-05-07 13:08:20.592 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:08:20.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.6538ms
+2025-05-07 13:08:29.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:08:29.084 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:08:29.110 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:08:35.648 +05:30 [INF] Executed DbCommand (458ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:09:26.007 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:09:26.041 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:09:26.043 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:09:26.044 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:09:26.044 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:09:26.990 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:09:27.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 278.3146ms
+2025-05-07 13:09:27.280 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:09:27.283 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:09:27.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 19.1389ms
+2025-05-07 13:09:27.331 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.719ms
+2025-05-07 13:09:27.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:09:27.803 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 290.1418ms
+2025-05-07 13:09:35.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:09:35.042 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:09:35.068 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:09:42.173 +05:30 [INF] Executed DbCommand (298ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:09:42.766 +05:30 [INF] Executed DbCommand (420ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Name], [e].[Description]
+FROM [EmployeeData] AS [e]
+2025-05-07 13:09:46.715 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeApp.Model.Responce.EmployeeDataResponce_v1, EmployeeApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-07 13:09:46.726 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 11654.0551ms
+2025-05-07 13:09:46.726 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:09:46.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 200 null application/json; charset=utf-8 11703.7648ms
+2025-05-07 13:11:49.198 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:11:49.223 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:11:49.225 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:11:49.226 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:11:49.226 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:11:50.357 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:11:50.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 289.6769ms
+2025-05-07 13:11:50.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:11:50.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:11:50.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.9361ms
+2025-05-07 13:11:50.721 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.9748ms
+2025-05-07 13:11:50.805 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:11:50.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.2819ms
+2025-05-07 13:11:59.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:11:59.740 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:11:59.761 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:12:03.492 +05:30 [INF] Executed DbCommand (307ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:12:04.040 +05:30 [INF] Executed DbCommand (348ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Name], [e].[Description]
+FROM [EmployeeData] AS [e]
+2025-05-07 13:12:09.060 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 13:12:09.083 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 9318.1947ms
+2025-05-07 13:12:09.083 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:12:09.094 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 200 null application/json; charset=utf-8 9364.7706ms
+2025-05-07 13:13:07.027 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:13:07.056 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:13:07.058 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:13:07.058 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:13:07.058 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:13:07.967 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:13:08.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 273.6884ms
+2025-05-07 13:13:08.260 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:13:08.262 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:13:08.270 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.2349ms
+2025-05-07 13:13:08.313 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.7012ms
+2025-05-07 13:13:08.392 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:13:08.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.3985ms
+2025-05-07 13:13:14.664 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:13:14.675 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:13:14.700 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:13:18.520 +05:30 [INF] Executed DbCommand (312ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:13:19.064 +05:30 [INF] Executed DbCommand (406ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Name], [e].[Description]
+FROM [EmployeeData] AS [e]
+2025-05-07 13:13:30.576 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 13:13:30.595 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 15891.9282ms
+2025-05-07 13:13:30.595 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:13:30.601 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 200 null application/json; charset=utf-8 15938.0855ms
+2025-05-07 13:15:44.258 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:15:44.281 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:15:44.283 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:15:44.284 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:15:44.284 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:15:44.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:15:45.241 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 252.8374ms
+2025-05-07 13:15:45.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:15:45.260 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:15:45.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 16.5397ms
+2025-05-07 13:15:45.313 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9477ms
+2025-05-07 13:15:45.385 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:15:45.474 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.5475ms
+2025-05-07 13:15:50.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:15:50.642 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:15:50.674 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:15:54.702 +05:30 [INF] Executed DbCommand (460ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:16:03.200 +05:30 [INF] EmployeeInfo The LINQ expression 'r => r.ID == StructuralTypeShaperExpression: 
+    EmployeeApp.Model.Request.EmployeeData
+    ValueBufferExpression: 
+        ProjectionBindingExpression: EmptyProjectionMember
+    IsNullable: False
+.RoleId' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2025-05-07 13:16:12.808 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 13:16:12.830 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 22151.9186ms
+2025-05-07 13:16:12.831 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:16:12.838 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 404 null application/json; charset=utf-8 22206.5176ms
+2025-05-07 13:16:26.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:16:26.208 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:16:26.208 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:16:26.520 +05:30 [INF] Executed DbCommand (286ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:18:00.949 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 13:18:00.976 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 13:18:00.978 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 13:18:00.978 +05:30 [INF] Hosting environment: Development
+2025-05-07 13:18:00.978 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 13:18:02.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 13:18:02.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 272.0602ms
+2025-05-07 13:18:02.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 13:18:02.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 13:18:02.484 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.5899ms
+2025-05-07 13:18:02.532 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.7347ms
+2025-05-07 13:18:02.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 13:18:02.723 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.9397ms
+2025-05-07 13:18:05.960 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 13:18:05.968 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:18:05.982 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 13:18:09.288 +05:30 [INF] Executed DbCommand (381ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 13:18:09.693 +05:30 [INF] Executed DbCommand (337ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-07 13:18:14.572 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 13:18:14.592 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 8607.1402ms
+2025-05-07 13:18:14.593 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 13:18:14.598 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 200 null application/json; charset=utf-8 8638.8495ms
+2025-05-07 14:45:21.718 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 14:45:21.757 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 14:45:21.759 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 14:45:21.759 +05:30 [INF] Hosting environment: Development
+2025-05-07 14:45:21.759 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 14:45:22.834 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 14:45:23.154 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 333.7949ms
+2025-05-07 14:45:23.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 14:45:23.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 14:45:23.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 23.1269ms
+2025-05-07 14:45:23.298 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.1944ms
+2025-05-07 14:45:23.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 14:45:23.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.8984ms
+2025-05-07 14:45:31.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 14:45:31.033 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 14:45:31.080 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 14:45:35.643 +05:30 [INF] Executed DbCommand (574ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 14:45:36.198 +05:30 [INF] Executed DbCommand (393ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-07 14:45:49.489 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 14:45:49.510 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 18425.3234ms
+2025-05-07 14:45:49.510 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 14:45:49.517 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 200 null application/json; charset=utf-8 18497.0649ms
+2025-05-07 14:50:49.708 +05:30 [INF] Now listening on: https://localhost:7217
+2025-05-07 14:50:49.733 +05:30 [INF] Now listening on: http://localhost:5283
+2025-05-07 14:50:49.735 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 14:50:49.735 +05:30 [INF] Hosting environment: Development
+2025-05-07 14:50:49.735 +05:30 [INF] Content root path: D:\Microservices_Samples\EmployeeAppService
+2025-05-07 14:50:50.627 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/index.html - null null
+2025-05-07 14:50:50.893 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/index.html - 200 null text/html;charset=utf-8 272.5979ms
+2025-05-07 14:50:50.923 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 14:50:50.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/_vs/browserLink - null null
+2025-05-07 14:50:50.931 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.9065ms
+2025-05-07 14:50:50.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.9545ms
+2025-05-07 14:50:51.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - null null
+2025-05-07 14:50:51.170 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.1248ms
+2025-05-07 14:50:55.275 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - null null
+2025-05-07 14:50:55.285 +05:30 [INF] Executing endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 14:50:55.304 +05:30 [INF] Route matched with {action = "EmployeeInfo", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeInfo() on controller EmployeeAppService.Controllers.EmployeeController (EmployeeAppService).
+2025-05-07 14:50:59.323 +05:30 [INF] Executed DbCommand (555ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[RoleName]
+FROM [Role] AS [r]
+2025-05-07 14:50:59.803 +05:30 [INF] Executed DbCommand (393ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EMPId], [e].[Description], [e].[Name], [e].[RoleId]
+FROM [EmployeeData] AS [e]
+2025-05-07 14:51:03.748 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeApp.Model.Utils.ApiResponse'.
+2025-05-07 14:51:03.785 +05:30 [INF] Executed action EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService) in 8477.0878ms
+2025-05-07 14:51:03.785 +05:30 [INF] Executed endpoint 'EmployeeAppService.Controllers.EmployeeController.EmployeeInfo (EmployeeAppService)'
+2025-05-07 14:51:03.791 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7217/api/Employee/EmployeeInfo - 200 null application/json; charset=utf-8 8518.1336ms
